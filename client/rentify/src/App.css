@@ -1,0 +1,36 @@
+/* .main {
+  background-image: url('./background.png');
+  height: 100vh; /* Adjust the height as needed 
+  background-size: cover; /* This will ensure the image covers the entire div
+  background-repeat: no-repeat; /* This will prevent the image from repeating 
+} */
+
+.main
+{
+  background-color: #141414;
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-content {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(100px); /* Apply blur effect */
+  background-color: transparent;
+}
+
+.card-custom {
+  width: 20rem; /* Adjust the width as needed */
+}
